@@ -1,0 +1,38 @@
+{
+  "name": "520-crime",
+  "version": "1.0.0",
+  "description": "Crime data visualization for the tucson area",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhamilton20/ProjectTwo.git"
+  },
+  "keywords": [
+    "crime",
+    "tucson",
+    "panopticon",
+    "prison",
+    "abolition",
+    "mental",
+    "health",
+    "police",
+    "violence"
+  ],
+  "author": "Andrew Bergheim, Jenna Miles, James Hamilton, Michael Madrid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhamilton20/ProjectTwo/issues"
+  },
+  "homepage": "https://github.com/jhamilton20/ProjectTwo#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
+  }
+}
